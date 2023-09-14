@@ -1,4 +1,4 @@
-#!/usr/bin/env python3'startlang = DB[user_id][2] if user_id in DB else message.from_user.language_code or 'en'
+#!/usr/bin/env python3
 
 
 import io
