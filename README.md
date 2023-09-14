@@ -27,7 +27,7 @@ In a group you can send a message to the bot using **.gpt** command and with rep
 
 **.gpt who is your daddy**
 
-Special command **/token copy** may be used in chat to copy your private key.
+Special command **/key copy** may be used in chat to copy your private key.
 
 # Description of commands:
 
@@ -77,7 +77,7 @@ cfg.py
 # Bot description, up to 512 symbols.
 bot_description = """Free telegram-bot for chatting with chatGPT
 
-You only need to get your own chatGPT token and then you can talk to chatGPT in telegram.
+You only need to get your own chatGPT key and then you can talk to chatGPT in telegram.
 
 https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
 
