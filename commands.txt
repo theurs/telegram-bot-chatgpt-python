@@ -1,0 +1,14 @@
+/start - Hello and welcome
+/key - Set your personal openai API key
+/url - Set openai URL (if not original)
+/clear - start new dialog, forgot what was talked before
+/image - draw a pictures
+/tts - say text with google voice
+/trans - translate text with google translate
+/lang - change your locale
+/mem - show context memory
+/model - change chatGPT model
+/temperature - set chatGPT creative level, floating point [0-2]
+/removeme - remove my account (key etc)
+/restart - admin command, restart a bot (not dialog)
+/init - admin command, initialize bot.

@@ -1,0 +1,9 @@
+cfg.py
+sync
+__pycache__
+*.pkl
+*.log
+*.json
+test.py
+db/*
+logs/*

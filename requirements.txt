@@ -1,0 +1,8 @@
+bs4
+fake_useragent
+gTTS
+openai
+pylatexenc
+py_trans
+SpeechRecognition
+telebot
