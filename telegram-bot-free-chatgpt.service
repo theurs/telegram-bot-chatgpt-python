@@ -6,8 +6,8 @@ After=network.target
 Type=simple
 User=ubuntu
 Group=ubuntu
-WorkingDirectory=/home/ubuntu/freechatgpt
-ExecStart=/home/ubuntu/.tb1/bin/python3 /home/ubuntu/freechatgpt/tb.py
+WorkingDirectory=/home/ubuntu/telegram-bot-chatgpt-python
+ExecStart=/home/ubuntu/.tb1/bin/python3 /home/ubuntu/telegram-bot-chatgpt-python/tb.py
 Restart=always
 RestartSec=5
 
