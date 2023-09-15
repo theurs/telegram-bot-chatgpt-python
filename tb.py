@@ -360,6 +360,15 @@ def set_default_commands_thread(message: telebot.types.Message):
     reply_to_long_message(message, msg_descriptions)
 
 
+@bot.message_handler(commands=['test'])
+def test(message: telebot.types.Message) -> None:
+    user_id = message.from_user.id
+    lang = DB[user_id][2] if user_id in DB else message.from_user.language_code or 'en'
+    
+    name = bot.get_my_name(lang)
+    bot.reply_to(message, name)
+
+
 @bot.message_handler(commands=['key'])
 def key(message: telebot.types.Message) -> None:
     """Key command handler"""
