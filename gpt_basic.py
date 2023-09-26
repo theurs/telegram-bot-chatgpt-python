@@ -189,7 +189,7 @@ def get_list_of_models(chat_id: str):
             result += [i['id'],]
     except Exception as error:
         print(error)
-        my_log.log2(f'gpt_basic:get_list_of_models: {error}\n\nServer: {server[0]}')
+        my_log.log2(f'gpt_basic:get_list_of_models: {error}\n\nServer: {openai.api_base[0]}')
 
     return sorted(list(set(result)))
 
