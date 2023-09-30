@@ -61,6 +61,11 @@ https://www.howtogeek.com/885918/how-to-get-an-openai-api-key/
 Paste the key in the bot as [/key xxx...xxx].
 
 You can set a key for group by coping the personal key, use [/key copy] command in chat.
+
+Other bots:
+google bard - @free_google_bard_bot
+all-in-one - @kun4sun_bot
+translator - @chats_translator_bot
 '''
 
 
